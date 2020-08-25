@@ -1,2 +1,19 @@
-Test
-Test Olli
+
+@font-face {
+    font-family: 'MBCorpoSText-Regular-Web';
+    font-display: swap;
+    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF2/MBCorpoSText-Regular-Web.woff2") format("woff2"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF/MBCorpoSText-Regular-Web.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'MBCorpoSText-Bold-Web';
+    font-display: swap;
+    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF2/MBCorpoSText-Bold-Web.woff2") format("woff2"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF/MBCorpoSText-Bold-Web.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'DaimlerCS-Regular';
+    font-display: swap;
+    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/EOT/DaimlerCS-Regular.eot");
+    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/EOT/DaimlerCS-Regular.eot?#iefix") format("embedded-opentype"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF2/DaimlerCS-Regular.woff2") format("woff2"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF/DaimlerCS-Regular.woff") format("woff"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/TTF/DaimlerCS-Regular.ttf") format("truetype"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/SVG/DaimlerCS-Regular.svg#DaimlerCS-Regular") format("svg")
+}
