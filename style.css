@@ -1,19 +1,54 @@
-
-@font-face {
-    font-family: 'MBCorpoSText-Regular-Web';
-    font-display: swap;
-    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF2/MBCorpoSText-Regular-Web.woff2") format("woff2"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF/MBCorpoSText-Regular-Web.woff") format("woff")
+@font-face{
+    font-family:MBCorpo Title;
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/MBCorpoATitleCond-Regular-Web.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/MBCorpoATitleCond-Regular-Web.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/MBCorpoATitleCond-Regular-Web.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/MBCorpoATitleCond-Regular-Web.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/MBCorpoATitleCond-Regular-Web.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/MBCorpoATitleCond-Regular-Web.svg#MBCorpoATitleCond-Regular-Web) format("svg")
 }
 
-@font-face {
-    font-family: 'MBCorpoSText-Bold-Web';
-    font-display: swap;
-    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF2/MBCorpoSText-Bold-Web.woff2") format("woff2"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF/MBCorpoSText-Bold-Web.woff") format("woff")
+@font-face{
+    font-family:MBCorpo Text;
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/MBCorpoSText-Regular-Web.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/MBCorpoSText-Regular-Web.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/MBCorpoSText-Regular-Web.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/MBCorpoSText-Regular-Web.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/MBCorpoSText-Regular-Web.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/MBCorpoSText-Regular-Web.svg#MBCorpoSText-Regular-Web) format("svg")
 }
 
-@font-face {
-    font-family: 'DaimlerCS-Regular';
-    font-display: swap;
-    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/EOT/DaimlerCS-Regular.eot");
-    src: url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/EOT/DaimlerCS-Regular.eot?#iefix") format("embedded-opentype"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF2/DaimlerCS-Regular.woff2") format("woff2"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/WOFF/DaimlerCS-Regular.woff") format("woff"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/TTF/DaimlerCS-Regular.ttf") format("truetype"), url("https://assets.oneweb.mercedes-benz.com/global/1.20.0/fonts/SVG/DaimlerCS-Regular.svg#DaimlerCS-Regular") format("svg")
+@font-face{
+    font-family:MBCorpo Text;
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/MBCorpoSText-Bold-Web.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/MBCorpoSText-Bold-Web.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/MBCorpoSText-Bold-Web.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/MBCorpoSText-Bold-Web.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/MBCorpoSText-Bold-Web.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/MBCorpoSText-Bold-Web.svg#MBCorpoSText-Bold-Web) format("svg")
+}
+
+@font-face{
+    font-family:DaimlerCAC-Regular;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCAC-Regular.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCAC-Regular.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/DaimlerCAC-Regular.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/DaimlerCAC-Regular.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/DaimlerCAC-Regular.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/DaimlerCAC-Regular.svg#DaimlerCAC-Regular) format("svg")
+}
+
+@font-face{
+    font-family:DaimlerCS-Regular;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCS-Regular.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCS-Regular.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/DaimlerCS-Regular.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/DaimlerCS-Regular.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/DaimlerCS-Regular.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/DaimlerCS-Regular.svg#DaimlerCS-Regular) format("svg")
+}
+
+@font-face{
+    font-family:DaimlerCACArab-Regular;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCACArab-Regular.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCACArab-Regular.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/DaimlerCACArab-Regular.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/DaimlerCACArab-Regular.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/DaimlerCACArab-Regular.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/DaimlerCACArab-Regular.svg#DaimlerCAC-Regular) format("svg")
+}
+
+@font-face{
+    font-family:DaimlerCSArab-Regular;
+    font-display:swap;
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCSArab-Regular.eot);
+    src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCSArab-Regular.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/DaimlerCSArab-Regular.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/DaimlerCSArab-Regular.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/DaimlerCSArab-Regular.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/DaimlerCSArab-Regular.svg#DaimlerCS-Regular) format("svg")
 }
