@@ -53,6 +53,68 @@
     src:url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/EOT/DaimlerCSArab-Regular.eot#iefix) format("embedded-opentype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF2/DaimlerCSArab-Regular.woff2) format("woff2"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/WOFF/DaimlerCSArab-Regular.woff) format("woff"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/TTF/DaimlerCSArab-Regular.ttf) format("truetype"),url(https://assets.oneweb.mercedes-benz.com/plugin/workbench/fonts/1.4.0/SVG/DaimlerCSArab-Regular.svg#DaimlerCS-Regular) format("svg")
 }
 
+wb-modal-content {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    font-family: MBCorpo Text,DaimlerCS-Regular,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #767676;
+    display: block;
+    overflow: auto;
+}
+
+wb-modal-content>h3:first-child {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 2rem;
+    display: block;
+    color: #333;
+    margin-bottom: .5rem;
+    margin-bottom: var(--wb-spacing-xxs);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.wb-button--primary {
+    color: #fff;
+    min-width: 144px;
+    background-color: #00adef;
+    border: 1px solid #4a90e2;
+}
+
+.wb-button--large {
+    padding: 15px 31px;
+}
+
+.wb-button--small {
+    padding: 7px 15px;
+}
+
+.wb-button--medium {
+    padding: 11px 23px;
+}
+
 .wb-button {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
