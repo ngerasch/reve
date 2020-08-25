@@ -80,3 +80,42 @@
     cursor: pointer;
     border-radius: 2px;
 }
+
+option-button[value*="true"] {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+/*app-participant-session-mobile .no-document-pattern {
+    background-image: url('https://customerbrandingnam1.blob.core.windows.net/customer-branding/daimler/car_background.jpg') !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+    background-position: center;
+}
+
+.participant-session-desktop-container .no-document-pattern {
+    background-image: url('https://customerbrandingnam1.blob.core.windows.net/customer-branding/guy/liverpool.jpeg') !important;
+    background-repeat: no-repeat !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+    background-position: center;
+}*/
+
+.eula-modal-wrapper .button-agree-wrapper .ok-button {
+    background-color: #00adef !important;
+    border: 1px solid #4a90e2 !important;
+    border-radius: unset !important;
+}
+
+.eula-modal-wrapper .button-scroll-wrapper .scrollToEnd {
+    width: 180px !important;
+    border: 1px solid #bfbfbf !important;
+    background-color: transparent !important;
+    font-family: MBCorpo Text,DaimlerCS-Regular,sans-serif !important;
+    border-radius: unset !important;
+}
